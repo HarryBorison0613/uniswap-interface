@@ -1,0 +1,12 @@
+.app-body {
+  position: relative;
+  max-width: 420px;
+  width: 100%;
+  &--lg {
+    max-width: 720px;
+  }
+  @media(min-width: 767px) {
+    min-width: 520px;
+    max-width: 0;
+  }
+}

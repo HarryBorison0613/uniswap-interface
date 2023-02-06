@@ -1,0 +1,5 @@
+import MIGRATOR_ABI from './migrator.json'
+
+const MIGRATOR_ADDRESS = '0xF231A5C3bB9ee7D5247359b59C94b0eBac7E1f1b'
+
+export { MIGRATOR_ADDRESS, MIGRATOR_ABI }
